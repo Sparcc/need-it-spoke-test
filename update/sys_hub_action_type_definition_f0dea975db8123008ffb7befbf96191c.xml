@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation/>
+        <category/>
+        <description>Input a number and return the date that many days ago.</description>
+        <label_cache>[{"name":"{{action.ah_days_ago1}}","label":"action➛days_ago","type":"action","ref":""},{"name":"{{step[cfff474a-efc6-4d17-899f-a5170a4df3f6].n}}","label":"step➛Script step➛n","type":"step","ref":""},{"name":"{{step[cfff474a-efc6-4d17-899f-a5170a4df3f6].ne}}","label":"step➛Script step➛ne","type":"step","ref":""},{"name":"{{step[cfff474a-efc6-4d17-899f-a5170a4df3f6].new}}","label":"step➛Script step➛new","type":"step","ref":""},{"name":"{{step[cfff474a-efc6-4d17-899f-a5170a4df3f6].new_}}","label":"step➛Script step➛new_","type":"step","ref":""},{"name":"{{step[cfff474a-efc6-4d17-899f-a5170a4df3f6].new_d}}","label":"step➛Script step➛new_d","type":"step","ref":""},{"name":"{{step[cfff474a-efc6-4d17-899f-a5170a4df3f6].new_da}}","label":"step➛Script step➛new_da","type":"step","ref":""},{"name":"{{step[cfff474a-efc6-4d17-899f-a5170a4df3f6].new_dat}}","label":"step➛Script step➛new_dat","type":"step","ref":""},{"name":"{{step[cfff474a-efc6-4d17-899f-a5170a4df3f6].new_date}}","label":"step➛Script step➛new_date","type":"step","ref":""}]</label_cache>
+        <latest_snapshot display_value="Get Days Ago Date">caefadb5db8123008ffb7befbf961918</latest_snapshot>
+        <name>Get Days Ago Date</name>
+        <outputs/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-10 06:12:30</sys_created_on>
+        <sys_id>f0dea975db8123008ffb7befbf96191c</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Get Days Ago Date</sys_name>
+        <sys_package display_value="NeedIt Spoke" source="x_192391_needit_sp">0253edb9db4123008ffb7befbf9619d0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Spoke">0253edb9db4123008ffb7befbf9619d0</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_f0dea975db8123008ffb7befbf96191c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-10 06:17:15</sys_updated_on>
+        <system_level>false</system_level>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=f0dea975db8123008ffb7befbf96191c"/>
+    <sys_variable_value action="delete_multiple" query="document_key=f0dea975db8123008ffb7befbf96191c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>f0dea975db8123008ffb7befbf96191c</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-10 06:16:08</sys_created_on>
+        <sys_id>86afe9b5db8123008ffb7befbf961964</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-10 06:16:08</sys_updated_on>
+        <value/>
+        <variable display_value="">8eafe9b5db8123008ffb7befbf96195d</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f0dea975db8123008ffb7befbf96191c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>calculated_date</field>
+        <id>f0dea975db8123008ffb7befbf96191c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-10 06:16:08</sys_created_on>
+        <sys_id>06afe9b5db8123008ffb7befbf961964</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-10 06:16:08</sys_updated_on>
+        <table>var__m_sys_hub_action_output_f0dea975db8123008ffb7befbf96191c</table>
+        <value>{{step[cfff474a-efc6-4d17-899f-a5170a4df3f6].new_date}}</value>
+    </sys_element_mapping>
+</record_update>
